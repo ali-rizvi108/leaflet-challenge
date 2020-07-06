@@ -1,4 +1,4 @@
-const API_KEY = "pk.eyJ1IjoidG9tc2VlYmVyIiwiYSI6ImNqem94N2s4NjAwNmYzaGxhOXo1a2hnd2cifQ.0xdFq99WPAZyCeZYyXzYWQ";
+const API_KEY = "****";
 var graymap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
   tileSize: 512,
